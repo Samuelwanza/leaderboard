@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, orange, white);
+}
+
+header > h3 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.main-section-wrapper {
+  padding-left: 7%;
+  display: flex;
+  gap: 100px;
+}
+
+.main-section-reflex {
+  width: 30%;
+}
+
+.refresh-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side > input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.right-side > button {
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+ul {
+  width: 100%;
+  border: 2px lightgray solid;
+  padding-inline-start: 0;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+li {
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+li:nth-child(even) {
+  background-color: bisque;
+}
