@@ -33,10 +33,10 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-    <li><a href="https://reactjs.org/">CSS</a></li>
-    <li><a href="https://reactjs.org/">Linters</a></li>
-    <li><a href="https://reactjs.org/">Javascript</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://www.testim.io/blog/what-is-a-linter-heres-a-definition-and-quick-start-guide/">Linters</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript/">Javascript</a></li>
   </ul>
 </details>
 
@@ -64,9 +64,9 @@ To get started, clone this repository to your desired folder:
 
 ```shell
 cd my-folder
-git clone https://github.com/Samuelwanza/todolist/.git
+git clone https://github.com/Samuelwanza/leaderboard/.git
 
-cd todolist
+cd leaderboard
 
 npm run start
 ```
@@ -94,9 +94,6 @@ To execute the tests for this project, follow these steps:
 By following these steps, you can effectively run and validate the tests for the project using Live Server in VSCode.
 
 ### Deployment:
-
-Deployment date: 10th June, 2023.
-[Deployed Link](https://samuelwanza.github.io/todolist/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
