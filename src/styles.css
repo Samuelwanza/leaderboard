@@ -12,6 +12,8 @@ body {
 header > h3 {
   font-size: 56px;
   font-weight: bold;
+  color: white;
+  margin-left: 30px;
 }
 
 .main-section-wrapper {
@@ -38,6 +40,27 @@ header > h3 {
 .right-side > input {
   margin-top: 10px;
   margin-bottom: 20px;
+  outline: none;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 90px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
 }
 
 .right-side > button {
@@ -52,7 +75,8 @@ ul {
 }
 
 h4 {
-  font-size: 36px;
+  font-size: 30px;
+  color: white;
 }
 
 li {
@@ -60,6 +84,19 @@ li {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 3px;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes slide {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 
 li:nth-child(odd) {
